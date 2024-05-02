@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Bash script that displays Best School 10 times, but displays Hi on the 9th line
+count=0
+while [ "$count" -lt 10 ];do
+	if [ "$count" -eq 8 ];then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((count++))
+done
