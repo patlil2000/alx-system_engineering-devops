@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+Host remote_server
+        HostName 34.232.78.27
+        User     ubuntu
+        IdentityFile ~/.ssh/school
