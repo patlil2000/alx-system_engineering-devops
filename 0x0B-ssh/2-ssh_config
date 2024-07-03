@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+#configures the server
 Host remote_server
         HostName 34.232.78.27
         User     ubuntu
         IdentityFile ~/.ssh/school
+	PasswordAuthentication no
